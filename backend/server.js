@@ -23,7 +23,7 @@ app.use('/api/applications', applicationRoutes);
 app.use('/api/users', userRoutes);
 
 app.get("/", (req, res) => {
-  res.send("Backend is running");
+  res.send("Backend is running"); 
 });
 
 // 404 handler
